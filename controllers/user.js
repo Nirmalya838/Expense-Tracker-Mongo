@@ -33,7 +33,6 @@ exports.postAddUser = async(req,res,next)=>{
 }
 
 function generateAccessToken(_id,premium,name){
-    console.log(_id,premium,name)
    return jwt.sign({userId:_id,premium:premium,username:name},'secretKey');
 }
 

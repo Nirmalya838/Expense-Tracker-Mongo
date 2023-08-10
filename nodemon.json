@@ -1,0 +1,11 @@
+{
+    "env": {
+        "dbPass": "Javascript@321",
+        "dbUser": "root",
+        "host": "smtp-relay.sendinblue.com",
+        "user": "virusnirmalya@gmail.com",
+        "pass": "gFhBcSd4YkjnaGR8",
+        "rzpkey": "rzp_test_fLUgTqzTEP3TWz",
+        "rzpsecretkey": "SGRDd7AzG5FMFA2vDm8zjn8o"
+    }
+}

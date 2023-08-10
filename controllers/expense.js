@@ -110,7 +110,7 @@ exports.deleteExpense = async (req, res, next) => {
 
 exports.downloadLinks = async (req, res) => {
   try {
-    const url = await FilesDownload.find({ userId: req.user.id });
+    const url = await FilesDownload.find({ userId: req.user._id });
     res.status(200).json({ success: "true", url });
   } catch (err) {
     console.log(err);
